@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique de Vêtements</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Boutique de Vêtements</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#about">À Propos</a></li>
+                    <li><a href="#shop">Boutique</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Des vêtements élégants pour toutes les occasions</h2>
+            <p>Découvrez notre collection exclusive.</p>
+            <a href="#shop" class="btn">Voir la boutique</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>À Propos de Nous</h2>
+            <p>Nous sommes une boutique spécialisée dans les vêtements de qualité, conçus pour allier style et confort. Notre mission est de vous offrir des produits tendance adaptés à vos besoins.</p>
+        </div>
+    </section>
+
+    <section id="shop" class="shop">
+        <div class="container">
+            <h2>Notre Boutique</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="images/product1.jpg" alt="Produit 1">
+                    <h3>T-shirt Classique</h3>
+                    <p>25€</p>
+                </div>
+                <div class="product">
+                    <img src="images/product2.jpg" alt="Produit 2">
+                    <h3>Robe Élégante</h3>
+                    <p>45€</p>
+                </div>
+                <div class="product">
+                    <img src="images/product3.jpg" alt="Produit 3">
+                    <h3>Veste Chic</h3>
+                    <p>70€</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contactez-Nous</h2>
+            <form action="#" method="post">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Boutique de Vêtements. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
